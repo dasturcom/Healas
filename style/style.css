@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: #FFE6D7;
+    font-family: "Josefin Sans", sans-serif;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-ul {
+    display: flex;
+    text-align: center;
+}
+
+.header-nav-li {
+    list-style: none;
+    margin-left: 52px;
+}
+
+.header-nav-li > a {
+    text-decoration: none;
+    color: #446381;
+    font-size: 18px;
+}
+
+.btn {
+    border: none;
+    background: linear-gradient(to right, #4499D9, #7367BE);
+    color: #fff;
+    padding: 13px 19px;
+    border-radius: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+}
+
+
+.gaming-consoles {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gaming-consoles > div > span {
+    color: #446381;
+    font-size: 23px;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.gaming-consoles > div > h1 {
+    width: 470px;
+    height: 144px;
+    color: #EB8382;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    display: block;
+}
+
+.gaming-consoles > div > h1 > span {
+    color: #446381;
+}
+
+.gaming-consoles > div > p {
+    width: 515px;
+    color: #826F8C;
+    margin-bottom: 35px;
+}
+
+.gaming-consoles-right::before {
+    width: 869px;
+    height: 617px;
+    content: '';
+    display: block;
+    background-image: url(../img/character.svg);
+    margin-left: -180px;
+    margin-top: -140px;
+}
+
+.about-glasses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.about-glasses > div > span {
+    font-size: 23px;
+    color: #446381;
+    margin-bottom: 30px;
+}
+
+.about-glasses > div > h2 {
+    width: 585px;
+    height: 144px;
+    color: #EB8382;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    display: block;
+}
+
+.about-glasses > div > p {
+    width: 515px;
+    height: 115px;
+    color: #826F8C;
+}
+
+.about-glasses-right {
+    width: 550px;
+}
+
+.about-glasses > div > img {
+    width: 555px;
+    height: 585px;
+}
+
+.about-xbox {
+    color: #446381;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-xbox-div > span {
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.about-xbox-div > h2 {
+    width: 529px;
+    height: 144px;
+    color: #EB8382;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    display: block;
+}
+
+.about-xbox-div > p {
+    width: 518px;
+    color: #826F8C;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+.our-pricing > div > span {
+    width: 120px;
+    font-size: 23px;
+    color: #446381;
+    /* margin-bottom: 23px; */
+    display: block;
+    margin: 0 auto;
+}
+
+.our-pricing > div > h2 {
+    width: 490px;
+    height: 144px;
+    font-size: 50px;
+    line-height: 70px;
+    color: #EB8382;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.our-pricing > div > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-pricing > div > ul > li {
+    width: 360px;
+    height: 566px;
+    list-style: none;
+    background-color: #FBDACF;
+    border-radius: 20px;
+    padding: 36px 46px;
+}
+
+.our-pricing > div > ul > li > h5 {
+    color: #446381;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 33px;
+}
+
+.our-pricing > div > ul > li > div {
+    font-weight: 600;
+    font-size: 40px;
+    color: #EB8382;
+}
+
+.our-pricing > div > ul > li > div > span {
+    font-size: 18px;
+}
+
+.our-pricing > div > ul > li > ul {
+    margin-top: 50px;
+}
+
+.our-pricing > div > ul > li > ul > li {
+    list-style: none;
+    margin-bottom: 26px;
+} 
+
+.our-pricing > div > ul > li > ul > li > span {
+    font-size: 18px;
+    color: #826F8C;
+}
+
+.our-pricing > div > ul > li > button {
+    padding: 13px 57px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(to right, #4499D9, #7367BE);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.footer {
+    margin-top: 73px;
+}
+
+.footer-div-span {
+    width: 1300px;
+    margin: 0 auto;
+    height: 0.5px;
+    display: block;
+    border: 1px solid #826F8C;
+    background-color: #816F8C;
+}
+
+.footer-div {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-div > span {
+    font-size: 16px;
+    color: #826F8C;
+}
